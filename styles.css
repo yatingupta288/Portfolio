@@ -245,5 +245,10 @@ a{
     #title{
       text-align: center;
     }
-    
+    #about h1,h5{
+        text-align: center;
+    }
+    #about p{
+        text-align: center;
+    }
 }
