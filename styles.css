@@ -182,6 +182,7 @@ a{
     width: 350px;
     height:auto;
     transition: transform 250ms;
+    padding-bottom: 10px;
 }
 
 
