@@ -1,76 +1,76 @@
-body{
-    margin: 0%;
-    text-align: center;
-    background-color: black !important;
+body {
+  margin: 0%;
+  text-align: center;
+  background-color: black !important;
 }
 
-
-#main{
-    overflow: hidden;
+#main {
+  overflow: hidden;
 }
 
 #particles-js {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: 50% 50%;
-    opacity: 1; 
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+  opacity: 1;
 }
 /* 0.48 */
 
-    /* top heading */
-h1 ,h2 ,h3, h4, h5{
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
-    color: white;
+/* top heading */
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: white;
 }
-    /* top heading and contact */
+/* top heading and contact */
 
-.line{
-    margin: 100px;
-    width: 80px; /*64px*/
-    height: 6px;
-    border-radius: 10px;
-    background: linear-gradient(270deg, rgb(0,0,0) 0%, rgb(128,128,128) 100%);
-}
-
-.big-heading p{
-    color: whitesmoke;
-    padding-left: 100px;
-}
-
-.big-heading h1{
-    color: whitesmoke;
+.line {
+  margin: 100px;
+  width: 80px; /*64px*/
+  height: 6px;
+  border-radius: 10px;
+  background: linear-gradient(270deg, rgb(0, 0, 0) 0%, rgb(128, 128, 128) 100%);
 }
 
+.big-heading p {
+  color: whitesmoke;
+  padding-left: 100px;
+}
 
+.big-heading h1 {
+  color: whitesmoke;
+}
 
-p{
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
-    color: whitesmoke
+p {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: whitesmoke;
 }
 
 /* navbar and contact */
-a{
-    font-family: 'Montserrat', sans-serif;
+a {
+  font-family: "Montserrat", sans-serif;
 }
 /* navbar and contact */
 
 /* top-heading */
-.name{  
-  font-family:Verdana, Geneva, Tahoma, sans-serif;
+.name {
+  font-family: "Frank Ruhl Libre", serif;
   font-size: 3.5rem;
   line-height: 1.5;
-  padding-top: 150px;
-  padding-left: 100px;
+  margin-top: 150px;
+  margin-left: 100px;
 }
 
-#title{
-    text-align: left;
-    background-color: #000000;
+#title {
+  text-align: left;
+  background-color: #000000;
 }
-
 
 /* top heading */
 
@@ -78,151 +78,183 @@ a{
 /* top heading and container */
 
 /* top heading and contact */
-.container-fluid{
-    padding: 3% 15% 18%;
+.container-fluid {
+  padding: 3% 15% 18%;
 }
 
 /* containers */
 
 /* navbar */
-.navbar{
-    padding: 0 0 4.5rem;
+.navbar {
+  padding: 0 0 4.5rem;
 }
 
-.navbar-brand{
-    color: blanchedalmond;
-    text-decoration: none;
-    padding-left: 60px;
+.navbar-brand {
+  color: blanchedalmond;
+  text-decoration: none;
+  padding-left: 60px;
 }
 .nav-item {
-    padding: 0 18px; 
-    color: white;
-    text-decoration: none;
+  padding: 0 18px;
+  color: white;
+  text-decoration: none;
 }
 
-.nav-link{
-    transition: transform 0.3sec;
-    font-size: 1.2rem;
-    font-family: "Montserrat";
+.nav-link {
+  transition: transform 0.3sec;
+  font-size: 1.2rem;
+  font-family: "Montserrat";
 }
 
-.nav-link:hover{
-    transform: translateY(-5px);
+.nav-link:hover {
+  transform: translateY(-5px);
 }
 
 /* navbar  */
 
 /* about */
-#about{
-    padding-top: 0%;
+#about {
+  padding-top: 0%;
 }
 
-#about p{
-    padding-bottom: 30px;
-    text-align: left;
+#about p {
+  padding-bottom: 30px;
+  text-align: left;
 }
 
-#about h1,h5{
-    margin-left: 100px;
-    text-align: left;
+/* .yellow{
+    color: #ebee00;
+} */
+.who {
+  font-family: "Frank Ruhl Libre", serif;
+  color: #00ebeb;
 }
 
-.content p{
-    margin-left: 100px;
+#about h1,
+h5 {
+  margin-left: 100px;
+  text-align: left;
 }
 
+.content p {
+  margin-left: 100px;
+}
+
+.quote {
+  color: #00ebeb;
+  margin-left: 450px;
+}
 
 /* about  */
 
 /* skills */
 
-#skills{
-    background-color: black;
+#skills {
+  background-color: black;
 }
 
-.skillsofmine p{
-    color: white;
-    padding-bottom: 4%;
+#skills .row {
+  display: flex;
+  justify-content: space-evenly;
 }
 
-.skillsofmine h1{
-    color: white;
-    padding-top: 0%;
+.skillsofmine p {
+  color: white;
+  padding-bottom: 4%;
 }
+
+.skillsofmine h1 {
+  font-family: "Frank Ruhl Libre", serif;
+  color: lightseagreen;
+}
+
+/* .feature-title{
+    color: yellowgreen;
+} */
 
 .size {
-    font-size: 3rem;
-    display: block;
-  }
-
-.color{
-    color: white;
-    transition: transform 0.3s;
+  font-size: 3rem;
+  display: block;
 }
 
-.color:hover{
-    color:lightseagreen;
-    transform: translateY(-5px);
+.color {
+  color: white;
+  transition: transform 0.3s;
 }
 
-.feat p{
-    padding-bottom: 10%;
+.color:hover {
+  color: yellow;
+  transform: translateY(-5px);
+}
+
+.feat p {
+  color: #78dec7;
+  padding-bottom: 10%;
 }
 /* skills */
 
 /* projects */
 
-#projects h1{
-    padding-bottom: 50px;
+#projects h1 {
+  font-family: "Frank Ruhl Libre", serif;
+  color: lightseagreen;
+  padding-bottom: 50px;
 }
 
-.picsize{
-    border: 2px solid none;
-    box-shadow:2px 0px grey;
-    border-radius: 25px;
-    margin-left: 30px;
-    margin-right: 25px;
-    width: 350px;
-    height:auto;
-    transition: transform 250ms;
-    margin-bottom: 40px;
+#projects .row {
+  display: flex;
+  justify-content: center;
 }
 
+.picsize {
+  border: 2px solid none;
 
-  
-.picsize:hover {
-    transform: translateY(-10px);
+  border-radius: 25px;
+  object-fit: cover;
+  width: 100%;
+  height: 300px;
 }
 
-.picsize{
-    width: 350px;
-    height:auto;
+.zoom {
+  border: 2px solid none;
+  border-radius: 25px;
+  margin: 20px;
+  height: 300px;
+  overflow: hidden;
 }
 
-/* contact */
-
-#contact{
-    background-color: black;
+.zoom .picsize {
+  transition: transform 1s, filter 0.5s ease-out;
 }
 
-.social-icon{
-    color: whitesmoke;
-    padding-top: 0%;
-    margin: 10px 10px;
-    transition: transform 0.3s;
-}
-
-.social-icon:hover{
-    transform: translateY(-5px);
-    color:blueviolet;
-}
-
-.last-container{
-    padding: 2% 5% 6%;
+.zoom :hover .picsize {
+  /* transform-origin: 65% 75%; */
+  transform: scale(2);
 }
 
 /* contact */
 
+#contact {
+  background-color: black;
+}
+
+.social-icon {
+  color: whitesmoke;
+  padding-top: 0%;
+  margin: 10px 10px;
+  transition: transform 0.3s;
+}
+
+.social-icon:hover {
+  transform: translateY(-5px);
+  color: blueviolet;
+}
+
+.last-container {
+  padding: 2% 5% 6%;
+}
+
+/* contact */
 
 /* images */
 /* .gif{
@@ -243,20 +275,29 @@ a{
 } */
 /* about */
 
-
 @media (max-width: 1028px) {
-    /* body{
+  /* body{
         font-size: 1.2rem;
     } */
-    #title{
-      text-align: center;
-    }
-    #about h1,h5{
-        text-align: center;
-        margin-right: 100px;
-    }
-    #about p{
-        text-align: center;
-        margin-right: 100px;
-    }
+  #title h1 {
+    margin-left: 300px;
+    margin-right: 100px;
+  }
+  #title p {
+    margin-left: 300px;
+    margin-right: 100px;
+  }
+  #about h1,
+  h5 {
+    text-align: center;
+    margin-right: 100px;
+  }
+  #about p {
+    text-align: center;
+    margin-right: 100px;
+  }
+
+  .zoom {
+    margin: 40px;
+  }
 }
